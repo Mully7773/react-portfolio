@@ -1,50 +1,30 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
-const Navbar = () => {
-  const location = useLocation();
+import "./style.css"
 
-
-    return ( 
-        <div>
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <div className="container-fluid">
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        
-      <li className="nav-item">
-        <Link to="/">
-         Home
-          </Link>
-        </li>
-
-        <li className="nav-item">
-          <Link to="/about">
-         About
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/projects">
-         Portfolio
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/contact">
-         Contact
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/resume">
-          Resume
-          </Link>
-        </li>
-      
-      </ul>
-      
-    </div>
+const NavBar = () => {
+  
+  
+  
+  return ( 
+<div>
+<Navbar bg="light" variant="light">
+    <Container>
+    <Nav className="nav me-auto">
+      <Nav.Link as={Link} to="/">Home</Nav.Link>
+      <Nav.Link as={Link} to="/about">About</Nav.Link>
+      <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
+      <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+      <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
+    </Nav>
+    </Container>
+  </Navbar>
   </div>
-</nav>
-        </div>
+
+
+       
     )
 };
  
-export default Navbar;
+export default NavBar;

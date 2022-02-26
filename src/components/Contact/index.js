@@ -10,7 +10,7 @@ const Contact = () => {
             <div className="social">
                 <h4>LinkedIn</h4>
                 <p>
-                    <a target="_blank" rel="noopener noreferrer" href="www.linkedin.com/in/nick-mullenmeister-b7a62078">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/nick-mullenmeister-b7a62078">
                         LinkedIn
                 </a>
                 </p>
