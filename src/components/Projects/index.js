@@ -2,6 +2,7 @@ import './styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { FaGithub } from "react-icons/fa"
 
+
 const Projects = () => {
     return ( 
         <div className="container" id="portfolio">
