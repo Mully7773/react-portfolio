@@ -1,25 +1,29 @@
+.nav-color {
+  background-color: #5CDB95;
+}
+
 .nav {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     width: 100%;
     font-size: 24px;
-    color: inherit;
+    color: #05386B;
 }
 
 .nav :hover {
-    color: rgb(38, 100, 141) !important;
+    color: #05386B !important;
 
 }
 
 .nav-item {
     position: relative;
-    color: rgb(38, 100, 141) !important;
+    color: #05386B !important;
     text-decoration: none;
   }
   
   .nav-item:hover {
-    color: rgb(38, 100, 141) !important;
+    color: #042a50 !important;
   }
   
   .nav-item::before {
@@ -30,7 +34,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: rgb(38, 100, 141) !important;;
+    background-color: rgb(38, 100, 141) !important;
     transform: scaleX(0);
     transition: transform 0.3s ease;
   }

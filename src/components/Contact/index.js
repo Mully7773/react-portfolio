@@ -7,7 +7,7 @@ import {Container, Row, Col} from "react-bootstrap";
 const Contact = () => {
     return (
         <div className="contact mt-4">
-            <h1 className='mb-4 text-center' >Contact Me</h1>
+            <h1 className='mb-4 text-center fw-bold'>Contact Me</h1>
 
             <Container fluid>
       <Row>

@@ -9,7 +9,7 @@ const NavBar = () => {
   
   return ( 
 <div>
-<Navbar bg="light" variant="light">
+<Navbar className='nav-color' bg="" variant="light">
     <Container>
     <Nav className="nav me-auto">
       <Nav.Link className="nav-item" as={Link} to="/">Home</Nav.Link>

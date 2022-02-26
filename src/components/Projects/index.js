@@ -9,7 +9,7 @@ const Projects = () => {
     return ( 
         <div className="container mt-4 mb-2" id="portfolio">
         <div className="row justify-description-center">
-            <h1 className="text-center">Projects</h1>
+            <h1 className="text-center fw-bold">Projects</h1>
             <div className="col-xs-12 col-sm-12 col-lg-4 mt-2 mb-4">
                 <div className="card text-center h-100">
                     <div className="imageBox">

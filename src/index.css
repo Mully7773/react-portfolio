@@ -1,4 +1,5 @@
 * {
+  color: #05386B;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -8,7 +9,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#b8e4d8!important;
+  background-color:#5CDB95!important;
   font-family: '', sans-serif;
 }
 
