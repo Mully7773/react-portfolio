@@ -1,14 +1,20 @@
 import React from 'react';
+import './style.css';
 import resume from "./Mullenmeister_Resume.pdf";
+import {Container, Row, Col} from "react-bootstrap";
 
 function Resume() {
   return (
-    <section className="my-5">
-      <div className="my-2">
-      <p>
-        Download my <a href={resume}>resume</a>
-        </p>
-        <h3>Front-end Proficiencies</h3>
+    
+    <div>
+      <h2 className='text-center mt-3'>
+        View my <a href={resume}>resume</a>
+        </h2>
+    <Container fluid>
+      <Row>
+      <Col>
+      <div className="my-auto mt-5 text-center">
+        <h2 className='proficiencies'>My Front-end Proficiencies</h2>
         <ul className="skills">
           <li>HTML</li>
           <li>CSS</li>
@@ -18,7 +24,17 @@ function Resume() {
           <li>React</li>
           <li>Bootstrap</li>
         </ul>
-        <h3>Back-end Proficiencies</h3>
+        </div>
+        </Col>
+        
+        
+       
+      
+        
+
+          <Col>
+          <div className='my-auto mt-5 text-center'>
+        <h2 className='proficiencies'>My Back-end Proficiencies</h2>
         <ul className="skills">
           <li>APIs</li>
           <li>Node</li>
@@ -28,8 +44,13 @@ function Resume() {
           <li>REST</li>
           <li>GraphQL</li>
         </ul>
-      </div>
-    </section>
+        </div>
+        </Col>
+        </Row>
+        </Container>
+        </div>
+   
+   
   );
 }
 
