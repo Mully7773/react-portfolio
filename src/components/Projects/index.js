@@ -1,7 +1,8 @@
 import './styles.css';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { FaGithub } from "react-icons/fa"
-import { FaLaptopCode } from "react-icons/fa"
+import { FaGithub } from "react-icons/fa";
+import { FaLaptopCode } from "react-icons/fa";
+import { FaVideo } from "react-icons/fa";
 
 
 const Projects = () => {
@@ -18,11 +19,11 @@ const Projects = () => {
                     <div className="card-body mb-5 pl-0">
                         <h3>Resternal</h3>
                         <p className="card-text">
-                            A restaurant journal website
+                        An online journal application to help you remember your experience at a restaurant.
                         </p>
                         <p className="card-text">
                             <small>
-                                Features: JavaScript, Node, Express
+                                Features: JavaScript, Node, Express, Handlebars, mySQL, Sequelize, Animate on Scroll
                             </small>
                         </p>
 
@@ -45,11 +46,11 @@ const Projects = () => {
                     <div className="card-body mb-5 pl-0">
                         <h3>Note Taker</h3>
                         <p className="card-text">
-                            An app that allows you to store notes.
+                            An app that allows you to keep track of notes or other information. Users can also delete notes.
                         </p>
                         <p className="card-text">
                             <small>
-                                Features: JavaScript, 
+                                Features: JavaScript, Node.js, Express 
                         </small>
                         </p>
                         <div className="links w-100 py-3 pt-3 pl-0 position-absolute">
@@ -69,16 +70,16 @@ const Projects = () => {
                     <div className="card-body mb-5 pl-0">
                         <h3>Team Profile Generator</h3>
                         <p className="card-text">
-                            Generate a team for your workplace.
+                            A Node application that takes user input and writes information about employees to an HTML page.
                         </p>
                         <p className="card-text">
                             <small>
-                                Features: HTML, CSS, 
+                                Features: HTML, CSS, JavaScript, Bootstrap, Node.js, Inquirer, Jest
                             </small>
                         </p>
                         <div className="links w-100 py-3 pt-3 pl-0 position-absolute">
                             <a href="https://watch.screencastify.com/v/o6eHttpA2PThGAOTMNt1" className="btn mr-2" target="_blank" rel="noreferrer">
-                            <FaLaptopCode size={42}/></a>
+                            <FaVideo size={42}/></a>
                             <a href="https://github.com/Mully7773/Team-Profile-Generator" target="_blank" className="btn" rel="noreferrer">
                             <FaGithub size={42}/></a>
                         </div>
@@ -95,11 +96,11 @@ const Projects = () => {
                     <div className="card-body mb-5 pl-0">
                         <h3>Weather Dashboard</h3>
                         <p className="card-text">
-                            A weather dashboard that allows you to search for weather conditions.
+                            A weather dashboard that allows you to search for different cities to view the current weather and the weather forecast.
                         </p>
                         <p className="card-text">
                             <small>
-                                Features: JavaScript, CSS
+                                Features: HTML, CSS, Javascript, jQuery, Moment.js, Bootstrap, OpenWeather API, Google Fonts
                             </small>
                         </p>
                         <div className="links w-100 py-3 pt-3 pl-0 position-absolute">
@@ -121,11 +122,11 @@ const Projects = () => {
                     <div className="card-body mb-5 pl-0">
                         <h3>Work Day Scheduler</h3>
                         <p className="card-text">
-                            An app that allows you to schedule your work day.
+                            An app that allows you to schedule your work day. Entered events are saved to local storage and can be retrieved upon refreshing the page.
                         </p>
                         <p className="card-text">
                             <small>
-                                Features: HTML, CSS, 
+                                Features: HTML, CSS, Javascript, jQuery, Moment.js, Bootstrap
                         </small>
                         </p>
                         <div className="links w-100 py-3 pt-3 pl-0 position-absolute">
@@ -147,11 +148,11 @@ const Projects = () => {
                     <div className="card-body mb-5 pl-0">
                         <h3>D&D Seekers</h3>
                         <p className="card-text">
-                            A search application that allows you to find monter challenge ratings for Dungeons and Dragons.
+                            A search application that allows you to find monter challenge ratings and other useful information for Dungeons and Dragons.
                     </p>
                         <p className="card-text">
                             <small>
-                                Features: HTML, CSS, JavaScript, jQuery, server-side APIs, Foundation
+                                Features: HTML, CSS, JavaScript, jQuery, server-side APIs, Foundation CSS framework
                         </small>
                         </p>
                         <div className="links w-100 py-3 pt-3 pl-0 position-absolute">
