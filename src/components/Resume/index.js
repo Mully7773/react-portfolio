@@ -6,10 +6,10 @@ import {Container, Row, Col} from "react-bootstrap";
 function Resume() {
   return (
     
-    <div>
-      <h2 className='text-center mt-3'>
-        View my <a href={resume}>resume</a>
-        </h2>
+    <div className='mb-5'>
+      <h1 className='text-center mt-4'>
+         <a id="resume-text" href={resume}>Résumé</a>
+        </h1>
     <Container fluid>
       <Row>
       <Col>

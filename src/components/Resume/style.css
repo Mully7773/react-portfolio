@@ -9,3 +9,7 @@ li {
 .proficiencies {
     text-decoration: underline;
 }
+
+#resume-text {
+    font-size: 40px;
+}

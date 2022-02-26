@@ -16,7 +16,7 @@ const NavBar = () => {
       <Nav.Link className="nav-item"as={Link} to="/about">About</Nav.Link>
       <Nav.Link className="nav-item" as={Link} to="/projects">Projects</Nav.Link>
       <Nav.Link className="nav-item"as={Link} to="/contact">Contact</Nav.Link>
-      <Nav.Link className="nav-item"as={Link} to="/resume">Resume</Nav.Link>
+      <Nav.Link className="nav-item"as={Link} to="/resume">Résumé</Nav.Link>
     </Nav>
     </Container>
   </Navbar>
