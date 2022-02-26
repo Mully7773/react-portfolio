@@ -5,9 +5,10 @@ import { FaGithub } from "react-icons/fa"
 
 const Projects = () => {
     return ( 
-        <div className="container" id="portfolio">
+        <div className="container mt-4 mb-2" id="portfolio">
         <div className="row justify-description-center">
-            <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
+            <h1 className="text-center">Projects</h1>
+            <div className="col-xs-12 col-sm-12 col-lg-4 mt-2 mb-4">
                 <div className="card text-center h-100">
                     <div className="imageBox">
                         <img src={`${process.env.PUBLIC_URL}/assets/Resternal.jpg`} className="card-img-top border-bottom"
@@ -34,7 +35,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
+            <div className="col-xs-12 col-sm-12 col-lg-4 mt-2  mb-4">
                 <div className="card text-center h-100">
                     <div className="imageBox">
                         <img src={`${process.env.PUBLIC_URL}/assets/Note-Taker.jpg`} className="card-img-top border-bottom"
@@ -60,7 +61,7 @@ const Projects = () => {
                 </div>
             </div >
 
-            <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
+            <div className="col-xs-12 col-sm-12 col-lg-4 mt-2  mb-4">
                 <div className="card text-center h-100 pb-5">
                     <img src={`${process.env.PUBLIC_URL}/assets/Team-Generator.jpg`} className="card-img-top border-bottom"
                         alt="Screenshot of Team Generator" />
