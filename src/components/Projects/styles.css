@@ -1,1 +1,36 @@
-/* styles */
+#portfolio {
+    flex-grow: 1;
+}
+
+#portfolio h3 {
+    font-size: 29px;
+    font-family: 'Volkhov', serif;
+    color: #56848c;
+    padding-left: 17px!important;
+}
+
+#portfolio a:hover {
+    color: #F2D0A7;
+    background-color: #21bfbf;
+}
+
+#portfolio .card {
+    background-color: #dae7f0;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 35px -5px hsl(0deg 0% 21% / 45%);
+}
+
+small {
+    font-style: italic;
+}
+
+/* .card-title,
+.card-text {
+    padding-left: 1.25rem;
+} */
+
+.links {
+    padding-right: 27px;
+    bottom: 0;
+}

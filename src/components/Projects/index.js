@@ -1,6 +1,7 @@
 import './styles.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { FaGithub } from "react-icons/fa"
+import { FaLaptopCode } from "react-icons/fa"
 
 
 const Projects = () => {
@@ -27,9 +28,9 @@ const Projects = () => {
 
                         <div className="links w-100 py-3 pt-3 pl-0 position-absolute">
                             <a href="https://morning-island-13574.herokuapp.com/" target="_blank" className="btn mr-2" rel="noreferrer">
-                                <i className="fas fa-laptop-code"></i></a>
+                                <FaLaptopCode size={42}/></a>
                             <a href="https://github.com/Mully7773/Restaurant-Journal-Project-II" target="_blank" className="btn" rel="noreferrer">
-                            <i class="fa-brands fa-github"></i></a>
+                            <FaGithub size={42}/></a>
                         </div>
                     </div>
                 </div>
@@ -53,9 +54,9 @@ const Projects = () => {
                         </p>
                         <div className="links w-100 py-3 pt-3 pl-0 position-absolute">
                             <a href="https://mighty-anchorage-28221.herokuapp.com/" target="_blank" className="btn mr-2" rel="noreferrer">
-                                <i className="fas fa-laptop-code"></i></a>
+                            <FaLaptopCode size={42}/></a>
                             <a href="https://github.com/Mully7773/Note-Taker" target="_blank" className="btn" rel="noreferrer">
-                                <FaGithub/></a>
+                                <FaGithub size={42}/></a>
                         </div>
                     </div>
                 </div>
@@ -77,9 +78,9 @@ const Projects = () => {
                         </p>
                         <div className="links w-100 py-3 pt-3 pl-0 position-absolute">
                             <a href="https://watch.screencastify.com/v/o6eHttpA2PThGAOTMNt1" className="btn mr-2" target="_blank" rel="noreferrer">
-                            <i className="fa-solid fa-circle-video"></i></a>
+                            <FaLaptopCode size={42}/></a>
                             <a href="https://github.com/Mully7773/Team-Profile-Generator" target="_blank" className="btn" rel="noreferrer">
-                                <i className="fab fa-github"></i></a>
+                            <FaGithub size={42}/></a>
                         </div>
                     </div>
                 </div>
@@ -103,9 +104,9 @@ const Projects = () => {
                         </p>
                         <div className="links w-100 py-3 pt-3 pl-0 position-absolute">
                             <a href="https://mully7773.github.io/Weather-Dashboard/" target="_blank" className="btn mr-2" rel="noreferrer">
-                                <i className="fas fa-laptop-code"></i></a>
+                            <FaLaptopCode size={42}/></a>
                             <a href="https://github.com/Mully7773/Weather-Dashboard" target="_blank" className="btn" rel="noreferrer">
-                                <i className="fab fa-github"></i></a>
+                            <FaGithub size={42}/></a>
                         </div>
                     </div>
                 </div>
@@ -129,9 +130,9 @@ const Projects = () => {
                         </p>
                         <div className="links w-100 py-3 pt-3 pl-0 position-absolute">
                             <a href="https://mully7773.github.io/Calendar-Application/" target="_blank" className="btn mr-2" rel="noreferrer">
-                                <i className="fas fa-laptop-code"></i></a>
+                            <FaLaptopCode size={42}/></a>
                             <a href="https://github.com/Mully7773/Calendar-Application" target="_blank" className="btn" rel="noreferrer">
-                                <i className="fab fa-github"></i></a>
+                            <FaGithub size={42}/></a>
                         </div>
                     </div>
                 </div>
@@ -155,9 +156,9 @@ const Projects = () => {
                         </p>
                         <div className="links w-100 py-3 pt-3 pl-0 position-absolute">
                             <a href="https://the-wake.github.io/project-1-dnd/" target="_blank" className="btn mr-2" rel="noreferrer">
-                                <i className="fas fa-laptop-code"></i></a>
+                            <FaLaptopCode size={42}/></a>
                             <a href="https://github.com/Mully7773/project-1-dnd" target="_blank" className="btn" rel="noreferrer">
-                                <i className="fab fa-github"></i></a>
+                            <FaGithub size={42}/></a>
                         </div>
                     </div>
                 </div>
